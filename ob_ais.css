@@ -1,0 +1,445 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: 70px;
+
+  background: #FFFFFF;
+  border-bottom: 1px solid #EDEDF4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo__wrapper {
+  margin-left: 115px;
+}
+
+.logo {
+  width: 128px;
+  height: 35px;
+}
+
+.notification__image {
+  width: 40px;
+  height: 40px;
+  margin-right: 11px;
+}
+
+.nav__account {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-right: 115px;
+}
+
+.dropdown__wrapper {
+  margin-left: 15px;
+}
+
+.accountName {
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #6e7686;
+}
+
+.accountName__wrapper {
+  margin-left: 15px;
+}
+
+.accountImg__wrapper {
+  margin-left: 15px;
+  
+}
+
+.accountImg {
+  height: 40px;
+}
+
+.line__wrapper {
+  margin-right: 10px;
+}
+
+.menu{
+  font-size: 18px;
+  color: #6E7686;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 13px;
+}
+
+.vio{
+  color: #6E7686;
+}
+
+.right{
+  margin-top: 66px;
+  margin-left: 115px;
+}
+
+.vng{
+  font-size: 14px;
+  color: #676A71;
+  margin-left: 3px;
+  vertical-align: 11px;
+}
+
+.block1{
+  display: flex;
+  flex-direction: row;
+}
+
+.ais{
+  color: #272A33;
+  font-weight: 800;
+  font-size: 42px;
+  margin-top: 130px;
+  margin-left: 120px;
+}
+
+.razdel{
+  margin-left: 117px;
+  margin-top: 22px;
+  width: 400px;
+  height: 150px;
+  text-align: justify;
+  font-size: 15px;
+  color: #676A71;
+  line-height: 160%;
+}
+
+.kniga{
+  width: 498px;
+  height: 460px;
+  margin-left: 122px;
+  margin-top: -5%;
+}
+
+.o_nas{
+  font-size: 32px;
+  color: #272A33;
+  margin-left: 115px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 135px;
+}
+
+.block2{
+  display: flex;
+  flex-direction: row;
+}
+
+.o_nas_png1{
+  width: 500px;
+  height: 360px;
+  margin-left: 115px;
+  margin-top: 38px;
+}
+
+.yt{
+  font-size: 20px;
+  color: #272A33;
+  margin-top: 98px;
+  margin-left: 25px;
+}
+
+.ne_sledyet{
+  font-size: 14px;
+  color: #676A71;
+  text-align: justify;
+  width: 470px;
+  height: 50px;
+  margin-left: 24px;
+  margin-top: 20px;
+  line-height: 160%;
+}
+
+.uasnost{
+  font-size: 14px;
+  line-height: 160%;
+  width: 470px;
+  height: 50px;
+  color: #676A71;
+  margin-left: 23px;
+  margin-top: 80px;
+}
+
+.block2_1{
+  display: flex;
+  flex-direction: row;
+}
+
+.yt2{
+  font-size: 16px;
+  line-height: 29px;
+  margin-top: 95px;
+  margin-left: 118px;
+  color: #272A33;
+}
+
+.takim_obr{
+  font-size: 14px;
+  line-height: 160%;
+  color: #676A71;
+  width: 470px;
+  height: 50px;
+  margin-top: 16px;
+}
+
+.odnoznachno{
+  font-size: 14px;
+  line-height: 160%;
+  color: #676A71;
+  width: 470px;
+  height: 50px;
+  margin-top: 80px;
+}
+
+.o_nas_png2{
+  width: 500px;
+  height: 370px;
+  margin-left: 48px;
+  margin-top: 30px;
+}
+
+.npb{
+  font-size: 21px;
+  color: #272A33;
+  margin-left: 117px;
+  margin-top: 135px;
+}
+
+.deyatelnost{
+  font-size: 18px;
+  line-height: 150%;
+  color: #272A33;
+  width: 708px;
+  height: 60px;
+  margin-top: 67px;
+  margin-left: 465px;
+}
+
+.list1{
+  width: 700px;
+  height: 584px;
+  margin-left: 493px;
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 16px;
+}
+
+
+.footer{
+  display: flex;
+  flex-direction: row;
+}
+
+.logo_footer{
+  width: 130px;
+  height: 35px;
+  margin-top: 58px;
+  margin-left: 115px;
+}
+
+.avtomat{
+  width: 273px;
+  height: 44px;
+  font-size: 12px;
+  line-height: 160%;
+  color: #676A71;
+  margin-top: 15px;
+  margin-left: 117px;
+}
+
+.reestru{
+  width: 174px;
+  height: 44px;
+  color: #676A71;
+  font-size: 12px;
+  line-height: 160%;
+  margin-top: 12px;
+  margin-left: 117px;
+}
+
+.teh_pod{
+  width: 251px;
+  height: 24px;
+  font-size: 17px;
+  color: #272A33;
+  margin-left: 75px;
+  margin-top: 59px;
+}
+
+.tel1{
+  font-size: 12px;
+  color: #676A71;
+  margin-top: 15px;
+  margin-left: 75px;
+}
+
+.tel2{
+  font-size: 12px;
+  color: #676A71;
+  margin-top: 10px;
+  margin-left: 75px;
+}
+
+.pochta1{
+  font-size: 12px;
+  color: #676A71;
+  margin-top: 9px;
+  margin-left: 75px;
+}
+
+.podderzka{
+  color: #13A3B9;
+  font-size: 12px;
+  margin-left: 75px;
+  margin-top: 10px;
+}
+
+.kontakty{
+  color: #272A33;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 100px;
+  margin-top: 58px;
+}
+
+.tel3{
+  font-size: 12px;
+  color: #676A71;
+  margin-top: 18px;
+  margin-left: 100px;
+}
+
+.tel4{
+  font-size: 12px;
+  color: #676A71;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.pochta2{
+  font-size: 12px;
+  color: #676A71;
+  margin-top: 9px;
+  margin-left: 100px;
+}
+
+.adres{
+  font-size: 12px;
+  line-height: 17px;
+  color: #676A71;
+  margin-top: 9px;
+  margin-left: 100px;
+}
+
+.footer2{
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #EDEDF4;
+ 
+}
+
+.bank_razv{
+  width: 120px;
+  height: 8px;
+  margin-left: 117px;
+  margin-top: 60px;
+}
+
+.ysl_partn{
+  width: 136px;
+  height: 34px;
+  background-color: #EDEDF4;
+  color: #A8AAAE;
+  font-size: 12px;
+  margin-top: 64px;
+  margin-left: 55px;
+}
+
+.ysl_partn_t{
+  text-align: center;
+  margin-top: 12px;
+}
+
+.ysl_partn2{
+  width: 136px;
+  height: 34px;
+  background-color: #EDEDF4;
+  color: #A8AAAE;
+  font-size: 12px;
+  margin-top: 64px;
+  margin-left: 17px;
+}
+
+.ysl_partn_t2{
+  text-align: center;
+  margin-top: 12px;
+}
+
+.ysl_partn3{
+  width: 136px;
+  height: 34px;
+  background-color: #EDEDF4;
+  color: #A8AAAE;
+  font-size: 12px;
+  margin-top: 64px;
+  margin-left: 19px;
+}
+
+.ysl_partn_t3{
+  text-align: center;
+  margin-top: 12px;
+}
+.ysl_partn4{
+  width: 136px;
+  height: 34px;
+  background-color: #EDEDF4;
+  font-size: 12px;
+  color: #A8AAAE;
+  margin-top: 64px;
+  margin-left: 18px;
+}
+
+.ysl_partn_t4{
+  text-align: center;
+  margin-top: 12px;
+}
+
+.liniya{
+  width: 1170px;
+  height: 1px;
+  background: #EDEDF4;
+  margin-top: 30px;
+}
+
+.ree{
+  font-size: 12px;
+  line-height: 160%;
+  text-align: center;
+  color: #A7B4CC;
+  margin-top: 22px;
+  margin-right: 13px;
+}
+
+.razrab{
+  font-size: 12px;
+  line-height: 160%;
+  text-align: center;
+  color: #A7B4CC;
+  margin-top: 0.5px;
+  margin-right: 13px;
+}
